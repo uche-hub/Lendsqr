@@ -1,0 +1,93 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+
+.login {
+    background-color: $half-color-background;
+    width: 704px;
+    height: 900px;
+    right: 736px;
+    display: flex;
+    box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+}
+
+.login-logos {
+    margin: $icon-margin;
+    display: flex;
+}
+
+.logoText {
+    margin-left: $icon-text-left;
+}
+
+.loginImg {
+    width: $image-width;
+    height: $image-height;
+    margin-left: $image-left;
+}
+
+// ============ Right Side And Form ============ //
+
+.right-side {
+    margin-top: $rigth-margin-top;
+    margin-left: $right-margin-left;
+}
+
+.headingText {
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing;
+    color: $heading-color;
+}
+
+.headingSub {
+    margin-top: $font-sub-margin-top;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    width: 194px;
+    font-weight: $font-sub-weight;
+    font-size: $font-sub-size;
+    line-height: $line-sub-height;
+    color: $heading-sub-color;
+}
+
+form {
+    margin-top: $form-margin-top;
+}
+
+input {
+    padding: 16px;
+    font-family: 'Avenir Next';
+    font-style: $input-font-style;
+    font-weight: $input-font-weight;
+    font-size: $input-font-size;
+    line-height: $input-line-height;
+    color: $input-color;
+    opacity: $input-opacity;
+    box-sizing: $form-box-sizing;
+    width: $form-width;
+    height: $form-height;
+    background: $form-background;
+    border: $form-border;
+    border-radius: $form-border-radius;
+}
+
+input:nth-child(2) {
+    margin-top: 24px;
+}
+
+.forgotPassword {
+    margin-top: $forgot-margin-top;
+    font-family: 'Avenir Next';
+    cursor: pointer;
+    font-style: normal;
+    font-weight: $forgot-font-weight;
+    font-size: $forgot-font-size;
+    line-height: $forgot-line-height;
+    text-align: $forgot-text-align;
+    letter-spacing: $forgot-letter-spacing;
+    text-transform: $forgot-text-transform;
+    color: $forgot-color;
+}
