@@ -9,6 +9,13 @@
     display: flex;
     box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
 
+    @media only screen and (max-width: 1200px) {
+        background-color: $responvise-background-color;
+        width: $responvise-width;
+        height: $responvise-height;
+        box-shadow: $responvise-box-shadow;
+    }
+
 
     @media only screen and (max-width: 800px) {
         background-color: $responvise-background-color;
@@ -37,6 +44,10 @@
     height: $image-height;
     margin-left: $image-left;
 
+    @media only screen and (max-width: 1200px) {
+        display: none;
+    }
+
     @media only screen and (max-width: 800px) {
         display: none;
     }
@@ -47,6 +58,10 @@
 .right-side {
     margin-top: $rigth-margin-top;
     margin-left: $right-margin-left;
+
+    @media only screen and (max-width: 1200px) {
+        margin-left: -280px;
+    }
 
     @media only screen and (max-width: 800px) {
         margin-top: 20px;
@@ -103,7 +118,22 @@ input {
     border: $form-border;
     border-radius: $form-border-radius;
 
+    @media only screen and (max-width: 1200px) {
+        display: block;
+        width: 650px;
+    }
+
     @media only screen and (max-width: 800px) {
+        display: block;
+        width: 650px;
+    }
+
+    @media only screen and (max-width: 780px) {
+        display: block;
+        width: 550px;
+    }
+
+    @media only screen and (max-width: 600px) {
         display: block;
         width: 350px;
     }
@@ -144,7 +174,22 @@ input:nth-child(2) {
     text-transform: $btn-text-transform;
     color: $btn-color;
 
+    @media only screen and (max-width: 1200px) {
+        display: block;
+        width: 650px;
+    }
+
     @media only screen and (max-width: 800px) {
+        display: block;
+        width: 650px;
+    }
+
+    @media only screen and (max-width: 780px) {
+        display: block;
+        width: 550px;
+    }
+
+    @media only screen and (max-width: 600px) {
         display: block;
         width: 350px;
     }
