@@ -8,11 +8,24 @@
     right: 736px;
     display: flex;
     box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+
+
+    @media only screen and (max-width: 800px) {
+        background-color: $responvise-background-color;
+        width: $responvise-width;
+        height: $responvise-height;
+        display: $responvise-display;
+        box-shadow: $responvise-box-shadow;
+    }
 }
 
 .login-logos {
     margin: $icon-margin;
     display: flex;
+
+    @media only screen and (max-width: 800px) {
+        margin: 30px;
+    }
 }
 
 .logoText {
@@ -23,6 +36,10 @@
     width: $image-width;
     height: $image-height;
     margin-left: $image-left;
+
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
 }
 
 // ============ Right Side And Form ============ //
@@ -30,6 +47,11 @@
 .right-side {
     margin-top: $rigth-margin-top;
     margin-left: $right-margin-left;
+
+    @media only screen and (max-width: 800px) {
+        margin-top: 20px;
+        margin-left: 26px;
+    }
 }
 
 .headingText {
@@ -40,6 +62,10 @@
     line-height: $line-height;
     letter-spacing: $letter-spacing;
     color: $heading-color;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 50px;
+    }
 }
 
 .headingSub {
@@ -51,6 +77,10 @@
     font-size: $font-sub-size;
     line-height: $line-sub-height;
     color: $heading-sub-color;
+
+    @media only screen and (max-width: 800px) {
+        font-size: 25px;
+    }
 }
 
 form {
@@ -72,6 +102,11 @@ input {
     background: $form-background;
     border: $form-border;
     border-radius: $form-border-radius;
+
+    @media only screen and (max-width: 800px) {
+        display: block;
+        width: 350px;
+    }
 }
 
 input:nth-child(2) {
@@ -90,4 +125,27 @@ input:nth-child(2) {
     letter-spacing: $forgot-letter-spacing;
     text-transform: $forgot-text-transform;
     color: $forgot-color;
+}
+
+.loginBtn {
+    margin-top: $btn-margin-top;
+    border: $btn-border;
+    width: $btn-width;
+    height: $btn-height;
+    background: $btn-background;
+    border-radius: $btn-border-radius;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: $btn-font-weight;
+    font-size: $btn-font-size;
+    line-height: $btn-line-height;
+    text-align: $btn-text-align;
+    letter-spacing: $btn-letter-spacing;
+    text-transform: $btn-text-transform;
+    color: $btn-color;
+
+    @media only screen and (max-width: 800px) {
+        display: block;
+        width: 350px;
+    }
 }

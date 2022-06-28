@@ -1,5 +1,11 @@
 //========== Background Spilt Screen =============//
 $half-color-background: #fff;
+//responsive max-with of 800px
+$responvise-background-color: none;
+$responvise-width: 100vh;
+$responvise-height: 100vh;
+$responvise-display: block;
+$responvise-box-shadow: none;
 
 //========== Logo Margins =============//
 $icon-margin: 106px;
@@ -55,3 +61,20 @@ $forgot-text-align: left;
 $forgot-letter-spacing: 0.1em;
 $forgot-text-transform: uppercase;
 $forgot-color: #39CDCC;
+
+//========== Login Button =============//
+$btn-margin-top: 30px;
+$btn-border: none;
+$btn-height: 48px;
+$btn-width: 447px;
+$btn-border-radius: 8px;
+$btn-background: #39CDCC;
+
+//========== Login Button Text =============//
+$btn-font-weight: 600;
+$btn-font-size: 14px;
+$btn-line-height: 19px;
+$btn-text-align: center;
+$btn-letter-spacing: 0.1em;
+$btn-text-transform: uppercase;
+$btn-color: #FFFFFF;
