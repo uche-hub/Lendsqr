@@ -1,0 +1,59 @@
+@import './variables.scss';
+
+.userCardHeader {
+    margin-left: $user-card-margin-left;
+    margin-top: $user-card-margin-top;
+}
+
+.userCardText{
+    font-family: $user-card-text-font-family;
+    font-style: $user-card-text-font-style;
+    font-weight: $user-card-text-font-weight;
+    font-size: $user-card-text-font-size;
+    line-height: $user-card-text-line-height;
+    color: $user-card-text-color;
+}
+
+.userCardContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.userCard {
+    margin-top: $user-card-card-margin-top;
+    width: $user-card-card-width;
+    height: $user-card-card-height;
+    background: $user-card-card-background;
+    border: $user-card-card-border;
+    box-shadow: $user-card-card-box-shadow;
+    border-radius: $user-card-card-border-radius;
+}
+
+.userCardDetails {
+    margin-left: $user-card-details-margin-left;
+    margin-top: $user-card-details-margin-top;
+}
+
+.userCardDetailText {
+    margin-top: $user-card-details-text-margin-top;
+}
+
+.userCardDetail1{
+    font-family: $user-card-details-text-1-font-family;
+    font-style: $user-card-details-text-1-font-style;
+    font-weight: $user-card-details-text-1-font-weight;
+    font-size: $user-card-details-text-1-font-size;
+    line-height: $user-card-details-text-1-line-height;
+    text-transform: $user-card-details-text-1-text-transform;
+    color: $user-card-details-text-1-color;
+}
+
+.userCardDetail2{
+    font-family: $user-card-details-text-2-font-family;
+    font-style: $user-card-details-text-2-font-style;
+    font-weight: $user-card-details-text-2-font-weight;
+    font-size: $user-card-details-text-2-font-size;
+    line-height: $user-card-details-text-2-line-height;
+    text-transform: $user-card-details-text-2-text-transform;
+    color: $user-card-details-text-2-color;
+}
