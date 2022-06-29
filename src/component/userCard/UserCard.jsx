@@ -27,14 +27,14 @@ const UserCard = () => {
             <div className="userCardDetails">
                 <UsersWithLoans />
                 <p className='userCardDetailText userCardDetail1'>USERS WITH LOANS</p>
-                <p className='userCardDetailText userCardDetail2'>2,453</p>
+                <p className='userCardDetailText userCardDetail2'>12,453</p>
             </div>
         </div>
         <div className="userCard">
             <div className="userCardDetails">
                 <UsersWithSavings />
                 <p className='userCardDetailText userCardDetail1'>USERS WITH SAVINGS</p>
-                <p className='userCardDetailText userCardDetail2'>2,453</p>
+                <p className='userCardDetailText userCardDetail2'>102,453</p>
             </div>
         </div>
       </div>
