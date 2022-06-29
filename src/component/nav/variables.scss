@@ -1,0 +1,32 @@
+//============ Navbar Design ==============//
+$nav-width: 100%;
+$nav-height: 100px;
+$nav-background-color: #fff;
+$nav-position: sticky;
+$nav-top: 0;
+$nav-color: white;
+$nav-display: flex;
+$nav-align-items: center;
+$nav-font-family: 'Josefin Sans', sans-serif;
+$nav-z-index: 999;
+$nav-box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+
+//============ Navbar Logo Margin ==============//
+$nav-logo-margin-left: 30px;
+
+//============ Top Left and Right Display ==============//
+$nav-tl-tr-flex: 3;
+$nav-tl-tr-display: flex;
+$nav-tl-tr-align-items: center;
+$nav-tl-tr-justify-content: center;
+
+//============ Rounded image ==============//
+$rounded-border-radius: 60px;
+
+//============ Nav Name ==============//
+$nav-name-font-family: 'Work Sans';
+$nav-name-font-style: normal;
+$nav-name-font-weight: 500;
+$nav-name-font-size: 16px;
+$nav-name-line-height: 19px;
+$nav-name-color: #213F7D;

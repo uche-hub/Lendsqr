@@ -1,0 +1,59 @@
+@import './variables.scss';
+
+.top {
+    width: $nav-width;
+    height: $nav-height;
+    background-color: $nav-background-color;
+    position: $nav-position;
+    top: $nav-top;
+    display: $nav-display;
+    align-items: $nav-align-items;
+    box-shadow: $nav-box-shadow;
+    z-index: $nav-z-index;
+}
+
+.navLogo {
+    margin-left: $nav-logo-margin-left;
+}
+
+.topRight {
+    margin-left: 900px;
+    display: $nav-tl-tr-display;
+    align-items: $nav-tl-tr-align-items;
+    justify-content: $nav-tl-tr-justify-content;
+}
+
+.notification {
+    margin-left: 50px;
+}
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-decoration-line: underline;
+
+    color: #213F7D;
+}
+
+.navImg {
+    margin-left: 33px;
+    border-radius: $rounded-border-radius;
+}
+
+.navName p {
+    margin-left: 10px;
+    font-family: $nav-name-font-family;
+    font-style: $nav-name-font-style;
+    font-weight: $nav-name-font-weight;
+    font-size: $nav-name-font-size;
+    line-height: $nav-name-line-height;
+    color: $nav-name-color;
+}
+
+.dropdown {
+    margin-left: 10.33px;
+}
