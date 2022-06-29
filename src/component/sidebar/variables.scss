@@ -1,0 +1,43 @@
+//============= Side Bar Design ==============//
+$sidebar-position: absolute;
+$sidebar-width: 283px;
+$sidebar-height: 100%;
+$sidebar-background: #FFFFFF;
+$sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+
+//============= Side Bar Switch Org Styling ==============//
+$switch-org-margin-top: 39px;
+$switch-org-display: flex;
+$switch-org-text-margin-left: 10px;
+$switch-org-text-margin-right: 10px;
+$switch-org-text-font-family: 'Work Sans';
+$switch-org-text-font-style: normal;
+$switch-org-text-font-weight: 400;
+$switch-org-text-font-size: 16px;
+$switch-org-text-line-height: 19px;
+$switch-org-text-color: #213F7D;
+$switch-org-Icon-margin-left: 30px; 
+
+//============= Side Bar Dashboard Styling ==============//
+$dashboard-margin-top: 52px;
+$dashboard-display: flex;
+$dashboaed-Icon-margin-left: 30px; 
+
+//============= Side Bar CUSTOMERS Styling ==============//
+$customer-margin-top: 41px;
+$customer-text-font-family: 'Work Sans';
+$customer-text-font-style: normal;
+$customer-text-font-weight: 500;
+$customer-text-font-size: 12px;
+$customer-text-line-height: 14px;
+$customer-text-color: #545F7D;
+$customer-text-margin-left: 30px;
+
+//============= Side Bar Users Styling ==============//
+$user-margin-top: 20px;
+$user-display: flex;
+$user-Icon-margin-left: 30px;
+$user-active-width: 283px;
+$user-active-height: 40px;
+$user-active-background: #39CDCC;
+$user-active-opacity: 0.06;

@@ -1,0 +1,86 @@
+@import './variables.scss';
+
+.sidebar {
+    position: $sidebar-position;
+    width: $sidebar-width;
+    height: $sidebar-height;
+    background: $sidebar-background;
+    box-shadow: $sidebar-box-shadow;
+}
+
+
+// =================== SWITCH ORGANISATION STYLE ======================= //
+.switchOrg {
+    margin-top: $switch-org-margin-top;
+    display: $switch-org-display;
+}
+
+.org {
+    margin-left: $switch-org-Icon-margin-left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.orgText {
+    margin-right: $switch-org-text-margin-right;
+    margin-left: $switch-org-text-margin-left;
+    font-family: $switch-org-text-font-family;
+    font-style: $switch-org-text-font-style;
+    font-weight: $switch-org-text-font-weight;
+    font-size: $switch-org-text-font-size;
+    line-height: $switch-org-text-line-height;
+    color: $switch-org-text-color;
+}
+
+.orgDropdown {
+    cursor: pointer;
+}
+
+// =================== DASHBOARD STYLE ======================= //
+.dashboard {
+    margin-top: $dashboard-margin-top;
+    display: $dashboard-display;
+}
+
+.dashboardIcon {
+    margin-left: $dashboaed-Icon-margin-left;
+}
+
+// =================== Customer STYLE ======================= //
+.customer {
+    margin-top: $customer-margin-top;
+}
+
+.customerText {
+    margin-left: $customer-text-margin-left;
+    font-family: $customer-text-font-family;
+    font-style: $customer-text-font-style;
+    font-weight: $customer-text-font-weight;
+    font-size: $customer-text-font-size;
+    line-height: $customer-text-line-height;
+    color: $customer-text-color;
+}
+
+// =================== USERS STYLE ======================= //
+.user {
+    margin-top: $user-margin-top;
+    display: $user-display;
+}
+
+.userIcon {
+    margin-left: $user-Icon-margin-left;
+}
+
+.active {
+    width: $user-active-width;
+    height: $user-active-height;
+    background: $user-active-background;
+    opacity: $user-active-opacity;
+}
+
+.userContainer {
+    display: flex;
+    margin-top: 10px;
+}
